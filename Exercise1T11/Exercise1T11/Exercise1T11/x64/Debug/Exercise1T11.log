@@ -1,4 +1,4 @@
-﻿  Source.cpp
+﻿  Main.cpp
 C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\kiemTraTamGiac.h(8,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
 C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\kiemTraTamGiac.h(10,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
 C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\kiemTraTamGiac.h(10,21): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
@@ -11,16 +11,111 @@ C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\kiemTr
 C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\kiemTraTamGiac.h(19,17): warning C4566: character represented by universal-character-name '\u1EA3' cannot be represented in the current code page (1252)
 C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\kiemTraTamGiac.h(19,17): warning C4566: character represented by universal-character-name '\u1EE7' cannot be represented in the current code page (1252)
 C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\kiemTraTamGiac.h(19,17): warning C4566: character represented by universal-character-name '\u1ED9' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(51,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(53,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(53,21): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(53,21): warning C4566: character represented by universal-character-name '\u1EC1' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(55,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(57,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(59,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(59,21): warning C4566: character represented by universal-character-name '\u1ECD' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(62,17): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(62,17): warning C4566: character represented by universal-character-name '\u1EA3' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(62,17): warning C4566: character represented by universal-character-name '\u1EE7' cannot be represented in the current code page (1252)
-C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Source.cpp(62,17): warning C4566: character represented by universal-character-name '\u1ED9' cannot be represented in the current code page (1252)
-  Exercise1T11.vcxproj -> C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\x64\Debug\Exercise1T11.exe
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(25,1): error C2011: 'Complex': 'class' type redefinition
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(40,9): error C2084: function 'Complex Add(Complex,Complex)' already has a body
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(20): message : see previous definition of 'Add'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(40,9): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(42,13): error C2079: 'u' uses undefined class 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(43,13): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(43,20): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(44,13): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(44,20): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(47,9): error C2084: function 'Complex Subtract(Complex,Complex)' already has a body
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(27): message : see previous definition of 'Subtract'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(47,9): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(49,13): error C2079: 'u' uses undefined class 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(50,13): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(50,20): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(51,13): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(51,20): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(54,9): error C2084: function 'Complex Core(Complex,Complex)' already has a body
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(34): message : see previous definition of 'Core'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(54,9): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(56,13): error C2079: 'u' uses undefined class 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(57,13): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(57,20): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(57,27): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(57,34): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(58,13): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(58,20): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(58,27): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(58,34): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(60,9): error C2084: function 'Complex Divide(Complex,Complex)' already has a body
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(40): message : see previous definition of 'Divide'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(60,9): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(62,13): error C2079: 'u' uses undefined class 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(63,14): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(63,21): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(63,28): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(63,35): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(63,49): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(63,66): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(64,14): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(64,19): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(64,24): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(64,29): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(64,43): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(64,60): error C2027: use of undefined type 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Complex.h(4): message : see declaration of 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(102,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(104,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(104,21): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(104,21): warning C4566: character represented by universal-character-name '\u1EC1' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(106,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(108,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(110,21): warning C4566: character represented by universal-character-name '\u0110' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(110,21): warning C4566: character represented by universal-character-name '\u1ECD' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(113,17): warning C4566: character represented by universal-character-name '\u1EA1' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(113,17): warning C4566: character represented by universal-character-name '\u1EA3' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(113,17): warning C4566: character represented by universal-character-name '\u1EE7' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(113,17): warning C4566: character represented by universal-character-name '\u1ED9' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(131,13): error C2079: 'AddComplex' uses undefined class 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(131,25): error C2079: 'SubtractComplex' uses undefined class 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(131,42): error C2079: 'CoreComplex' uses undefined class 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(131,54): error C2079: 'DivideComplex' uses undefined class 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(131,69): error C2079: 'u1' uses undefined class 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(131,73): error C2079: 'u2' uses undefined class 'Complex'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(135,18): error C2065: 'Add': undeclared identifier
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(135,29): error C2568: '=': unable to resolve function overload
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(135,29): message : could be 'Complex Add(Complex,Complex)'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(138,23): error C2065: 'Subtract': undeclared identifier
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(138,39): error C2568: '=': unable to resolve function overload
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(138,39): message : could be 'Complex Subtract(Complex,Complex)'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(141,19): error C2065: 'Core': undeclared identifier
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(141,31): error C2568: '=': unable to resolve function overload
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(141,31): message : could be 'Complex Core(Complex,Complex)'
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(144,21): error C2065: 'Divide': undeclared identifier
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(144,35): error C2568: '=': unable to resolve function overload
+C:\Users\W10.TQ\Desktop\WorkingCpp\Exercise1T11\Exercise1T11\Exercise1T11\Main.cpp(144,35): message : could be 'Complex Divide(Complex,Complex)'
