@@ -1,0 +1,6 @@
+﻿  Test.cpp
+C:\Users\W10.TQ\Desktop\WorkingCpp\Learning\Dynamically_allocating_array\Test.cpp(6,10): warning C4566: character represented by universal-character-name '\u1EAD' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Learning\Dynamically_allocating_array\Test.cpp(6,10): warning C4566: character represented by universal-character-name '\u1EC1' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Learning\Dynamically_allocating_array\Test.cpp(6,10): warning C4566: character represented by universal-character-name '\u1EA3' cannot be represented in the current code page (1252)
+C:\Users\W10.TQ\Desktop\WorkingCpp\Learning\Dynamically_allocating_array\Test.cpp(23,7): error C2374: 'array': redefinition; multiple initialization
+C:\Users\W10.TQ\Desktop\WorkingCpp\Learning\Dynamically_allocating_array\Test.cpp(10): message : see declaration of 'array'
