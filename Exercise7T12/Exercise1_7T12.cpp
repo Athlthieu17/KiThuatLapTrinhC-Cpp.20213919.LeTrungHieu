@@ -76,7 +76,7 @@ void Array::get_data(int n,int* d[])
 {
     for (int i = 0; i < n; i++)
     {
-        *d[i] = data[i];
+        *(d+i) = data[i];
     }
 }
 int main()
