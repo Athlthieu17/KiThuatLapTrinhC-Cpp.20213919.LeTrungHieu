@@ -92,5 +92,8 @@ int main()
     Person a;
     a.cinData(); a.exportData();
 
+    Person_2 b;
+    b.setName("đas");
+
 
 }
