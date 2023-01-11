@@ -1,0 +1,5 @@
+﻿  Exercise1.cpp
+  Exercise2.cpp
+C:\Users\W10.TQ\Desktop\WorkingCpp\11T12023\11T12023\Exercise2.cpp(22,2): error C2805: binary 'operator [' has too few parameters
+C:\Users\W10.TQ\Desktop\WorkingCpp\11T12023\11T12023\Exercise2.cpp(22,2): error C2333: 'Array::operator []': error in function declaration; skipping function body
+  Generating Code...
